@@ -33,6 +33,31 @@
         gap: 1rem;
     }
 
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .subtext {
+        font-size: 1rem;
+    }
+
+    .btn-principal,
+    .btn-secundario {
+        font-size: 15px;
+        width: 50%;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        h3{
+            font-size: 1.25rem;
+        }
+        p{
+            font-size: 0.95rem;
+        }
+    }
+
     .disclaimer {
         padding: 1.25rem 1rem;
     }

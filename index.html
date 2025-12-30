@@ -13,9 +13,10 @@
 </head>
 
 <body>
+    <!-- nav -->
     <nav class="navbar">
         <div class="logo">
-            <h3 class="logo">GastroInfo</h3>
+            <h3 class="logo"><i class="fa-solid fa-heart-pulse"></i> GastroInfo</h3>
         </div>
         <div class="search-box">
             <form class="d-flex" role="search">
@@ -29,8 +30,8 @@
         </div>
         <div class="links dropdown">
             <li class="link-item">
-                <a href="index.html">Home</a>
-                <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown">Categorias</a>
+                <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown"><i class="fa-solid fa-list"></i> Categorias</a>
                 <ul class="dropdown-menu dropdown-menu-end">
                     <li><a href="./pages/intolerancias.html" class="dropdown-item">Intolerâncias</a></li>
                     <li><a href="./pages/alergias.html" class="dropdown-item">Alergias</a></li>
@@ -40,7 +41,89 @@
             </li>
         </div>
     </nav>
-    <section id="sobre" class="content-section background-warning disclaimer">
+    <!-- nav -->
+    <!-- hero -->
+    <section>
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Entenda seu corpo alergias, intolerâncias e saúde digestiva</h1>
+                <p class="subtext">Informações confiáveis e acessíveis para ajudar você a compreender melhor sua saúde
+                    intestinal e bem-estar geral.
+                </p>
+                <div class="buttons">
+                    <a href="#categoria" class="btn-principal">Explorar Categorias</a>
+                    <a href="./pages/alergias.html" class="btn-secundario">Explorar Alergias</a>
+                </div>
+            </div>
+    </section>
+    <!-- hero -->
+    <!-- explore -->
+    <section>
+        <div class="explore" id="categoria">
+            <div class="explore-content">
+                <h1 class="hero-title">Explore por categoria</h1>
+                <p class="subtext">Conteúdos organizados para facilitar sua busca
+                </p>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-icon paper">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3>Intolerâncias alimentares</h3>
+                        <p>Diferença entre intolerância e alergia, sintomas comuns e alimentos envolvidos. Entenda o que
+                            seu corpo está tentando comunicar.</p>
+                        <a href="">Ver mais ></a>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon warning">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3>Alergias alimentares</h3>
+                        <p>Reações adversas do sistema imunológico a certos alimentos. Saiba identificar sintomas e
+                            gerenciar alergias alimentares com segurança.</p>
+                        <a href="">Ver mais ></a>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon heart">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3>Doenças gastrointestinais</h3>
+                        <p>Crohn, síndrome do intestino irritável, diagnóstico e tratamento. Conheça as condições e como
+                            lidar com elas.</p>
+                        <a href="">Ver mais ></a>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon diet">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3>Dietas e protocolos</h3>
+                        <p>FODMAPs, dieta de eliminação e outras estratégias alimentares baseadas em evidências para
+                            melhor qualidade de vida.</p>
+                        <a href="">Ver mais ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- explore -->
+    <!-- disclaimer -->
+    <section class="content-section background-warning disclaimer">
         <div class="narrow-container">
             <div class="info-notice">
                 <div class="notice-icon-wrapper">
@@ -58,12 +141,14 @@
             </div>
         </div>
     </section>
-    <footer class="fixed-bottom">
+    <!-- disclaimer -->
+    <!-- footer -->
+    <footer>
         <div class="footer-links">
             <div class="footer-columns">
                 <div class="collums">
                     <div class="footer-brand">
-                        <span class="footer-brand-name">GastroInfo</span>
+                        <span class="footer-brand-name"><i class="fa-solid fa-heart-pulse"></i> GastroInfo</span>
                     </div>
                     <p class="footer-summary">Informação confiável sobre saúde digestiva</p>
                 </div>
@@ -86,7 +171,7 @@
             <p class="copy">Desenvolvido por <a href="https://lucasboareto.vercel.app/">Lucas</a>❤️</p>
         </div>
     </footer>
-
+    <!-- footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
