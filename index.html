@@ -16,7 +16,7 @@
     <!-- nav -->
     <nav class="navbar">
         <div class="logo">
-            <h3 class="logo"><i class="fa-solid fa-heart-pulse"></i> GastroInfo</h3>
+            <h3 class="logo"><a href="index.html" style="text-decoration: none;"><i class="fa-solid fa-heart-pulse"></i> GastroInfo</a></h3>
         </div>
         <div class="search-box">
             <form class="d-flex" role="search">
@@ -31,7 +31,8 @@
         <div class="links dropdown">
             <li class="link-item">
                 <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
-                <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown"><i class="fa-solid fa-list"></i> Categorias</a>
+                <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown"><i class="fa-solid fa-list"></i>
+                    Categorias</a>
                 <ul class="dropdown-menu dropdown-menu-end">
                     <li><a href="./pages/intolerancias.html" class="dropdown-item">Intolerâncias</a></li>
                     <li><a href="./pages/alergias.html" class="dropdown-item">Alergias</a></li>
@@ -42,11 +43,27 @@
         </div>
     </nav>
     <!-- nav -->
+    <!-- toast -->
+     <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="meuToast" class="toast align-items-center text-bg-warning" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    Este site tem caráter educativo e não substitui
+                    avaliação médica. Sempre consulte um profissional de saúde qualificado para diagnóstico,
+                    tratamento e orientações personalizadas sobre sua condição. </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close">
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- toast -->
     <!-- hero -->
     <section>
         <div class="hero">
             <div class="hero-content">
-                <h1 class="hero-title">Entenda seu corpo alergias, intolerâncias e saúde digestiva</h1>
+                <h1 class="hero-title">Entenda seu corpo<br>
+                     alergias, intolerâncias e saúde digestiva</h1>
+                     <hr>
                 <p class="subtext">Informações confiáveis e acessíveis para ajudar você a compreender melhor sua saúde
                     intestinal e bem-estar geral.
                 </p>
@@ -148,7 +165,7 @@
             <div class="footer-columns">
                 <div class="collums">
                     <div class="footer-brand">
-                        <span class="footer-brand-name"><i class="fa-solid fa-heart-pulse"></i> GastroInfo</span>
+                        <span class="footer-brand-name"><a href="index.html" style="text-decoration: none;"><i class="fa-solid fa-heart-pulse"></i> GastroInfo</a></span>
                     </div>
                     <p class="footer-summary">Informação confiável sobre saúde digestiva</p>
                 </div>
@@ -175,6 +192,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

@@ -177,6 +177,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
+    margin-top: 2rem;
 }
 
 .card-icon {
@@ -298,6 +299,10 @@ body {
     a {
         text-decoration: none;
     }
+}
+
+.footer-title{
+    font-weight: bold;
 }
 
 .copy {
