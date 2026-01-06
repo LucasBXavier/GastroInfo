@@ -8,7 +8,7 @@ const doencasDigestivasData = [
         icone: `
         <i class="fa-solid fa-person-dots-from-line gastrite"></i>
         `,
-        pagina: "pages/doencas.html"
+        pagina: "/GastroInfo/pages/doencas.html"
     },
     {
         id: "refluxo",
@@ -19,7 +19,7 @@ const doencasDigestivasData = [
         icone: `
             <i class="fa-solid fa-fire-flame-simple refluxo"></i>
         `,
-        pagina: "pages/doencas.html"
+        pagina: "/GastroInfo/pages/doencas.html"
     },
     {
         id: "sii",
@@ -30,7 +30,7 @@ const doencasDigestivasData = [
         icone: `
             <i class="fa-solid fa-wave-square sii"></i>
         `,
-        pagina: "pages/doencas.html"
+        pagina: "/GastroInfo/pages/doencas.html"
     },
     {
         id: "doenca-celiaca",
@@ -41,7 +41,7 @@ const doencasDigestivasData = [
         icone: `
             <i class="fa-solid fa-bread-slice doenca-celiaca"></i>
         `,
-        pagina: "pages/doencas.html"
+        pagina: "/GastroInfo/pages/doencas.html"
     },
     {
         id: "crohn",
@@ -56,7 +56,7 @@ const doencasDigestivasData = [
             "Inflamação intestinal"
         ],
         icone: `<i class="fa-solid fa-bacteria crohn"></i>`,
-        pagina: "pages/doencas.html"
+        pagina: "/GastroInfo/pages/doencas.html"
     },
     {
         id: "diarreia-cronica",
@@ -67,7 +67,7 @@ const doencasDigestivasData = [
         icone: `
             <i class="fa-solid fa-water diarreia"></i>
         `,
-        pagina: "pages/doencas.html"
+        pagina: "/GastroInfo/pages/doencas.html"
     }
 ];
 

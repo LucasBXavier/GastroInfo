@@ -7,7 +7,7 @@ const intoleranciasData = [
         sintomas: ["Gases", "Inchaço", "Dor abdominal", "Diarreia", "Náusea"],
         icone: `
 <i class="fa-solid fa-cow "></i>`,
-        pagina: "pages/intolerancias.html"
+        pagina: "/GastroInfo/pages/intolerancias.html"
     },
     {
         id: "frutose",
@@ -18,7 +18,7 @@ const intoleranciasData = [
         icone: `
             <i class="fa-solid fa-apple-whole frutose" ></i>
     `,
-        pagina: "pages/intolerancias.html"
+        pagina: "/GastroInfo/pages/intolerancias.html"
     },
     {
         id: "sorbitol",
@@ -29,7 +29,7 @@ const intoleranciasData = [
         icone: `
     <i class="fa-solid fa-candy-cane sorbitol" ></i>
     `,
-        pagina: "pages/intolerancias.html"
+        pagina: "/GastroInfo/pages/intolerancias.html"
     },
     {
         id: "gluten",
@@ -40,7 +40,7 @@ const intoleranciasData = [
         icone: `
     <i class="fa-solid fa-wheat-awn gluten"></i>
     `,
-        pagina: "pages/intolerancias.html"
+        pagina: "/GastroInfo/pages/intolerancias.html"
     },
     {
         id: "fodmaps",
@@ -51,7 +51,7 @@ const intoleranciasData = [
         icone: `
     <i class="fa-solid fa-cloud-meatball fodmaps" ></i>
     `,
-        pagina: "pages/intolerancias.html"
+        pagina: "/GastroInfo/pages/intolerancias.html"
     },
     {
         id: "aditivos",
@@ -62,7 +62,7 @@ const intoleranciasData = [
         icone: `
     <i class="fa-solid fa-flask aditivos"></i>
     `,
-        pagina: "pages/intolerancias.html"
+        pagina: "/GastroInfo/pages/intolerancias.html"
 
     }
 ];

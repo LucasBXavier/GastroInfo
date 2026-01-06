@@ -10,7 +10,7 @@ const dietasData = [
             "A tolerância pode ser diferente para cada pessoa"
         ],
         icone: `<i class="fa-solid fa-glass-water-droplet dietas"></i>`,
-        pagina: "pages/dietas.html"
+        pagina: "/GastroInfo/pages/dietas.html"
     },
     {
         id: "produtos-sem-gluten",
@@ -23,7 +23,7 @@ const dietasData = [
             "Atenção à contaminação cruzada"
         ],
         icone: `<i class="fa-solid fa-wheat-awn-circle-exclamation dietas"></i>`,
-        pagina: "pages/dietas.html"
+        pagina: "/GastroInfo/pages/dietas.html"
     },
     {
         id: "substituicoes-alimentares",
@@ -36,7 +36,7 @@ const dietasData = [
             "Escolha de ingredientes mais toleráveis"
         ],
         icone: `<i class="fa-solid fa-arrows-rotate dietas"></i>`,
-        pagina: "pages/dietas.html"
+        pagina: "/GastroInfo/pages/dietas.html"
     },
     {
         id: "evitacao-temporaria",
@@ -49,7 +49,7 @@ const dietasData = [
             "Respostas variam entre indivíduos"
         ],
         icone: `<i class="fa-solid fa-clock dietas"></i>`,
-        pagina: "pages/dietas.html"
+        pagina: "/GastroInfo/pages/dietas.html"
     },
     {
         id: "rotulos-e-ingredientes",
@@ -62,7 +62,7 @@ const dietasData = [
             "Diferença entre marketing e composição real"
         ],
         icone: `<i class="fa-solid fa-tags dietas"></i>`,
-        pagina: "pages/dietas.html"
+        pagina: "/GastroInfo/pages/dietas.html"
     },
     {
         id: "fodmaps",
@@ -76,7 +76,7 @@ const dietasData = [
             "Reintrodução gradual conforme a resposta individual"
         ],
         icone: `<i class="fa-solid fa-circle-nodes dietas"></i>`,
-        pagina: "pages/dietas.html"
+        pagina: "/GastroInfo/pages/dietas.html"
     }
 ];
 
