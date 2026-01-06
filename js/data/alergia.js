@@ -13,7 +13,7 @@ const alergiasData = [
       "Dificuldade para respirar"
     ],
     icone: `<i class="fa-solid fa-cow milk"></i>`,
-    pagina: "/pages/alergias.html"
+    pagina: "pages/alergias.html"
   },
   {
     id: "ovo",
@@ -28,7 +28,7 @@ const alergiasData = [
       "Diarreia"
     ],
     icone: `<i class="fa-solid fa-egg egg"></i>`,
-    pagina: "/pages/alergias.html"
+    pagina: "pages/alergias.html"
   },
   {
     id: "amendoim",
@@ -43,7 +43,7 @@ const alergiasData = [
       "Anafilaxia"
     ],
     icone: `<i class="fa-solid fa-seedling amendoim"></i>`,
-    pagina: "/pages/alergias.html"
+    pagina: "pages/alergias.html"
   },
   {
     id: "frutos-mar",
@@ -58,7 +58,7 @@ const alergiasData = [
       "Dificuldade respiratória"
     ],
     icone: `<i class="fa-solid fa-fish frutos-mar"></i>`,
-    pagina: "/pages/alergias.html"
+    pagina: "pages/alergias.html"
   },
   {
     id: "soja",
@@ -73,7 +73,7 @@ const alergiasData = [
       "Urticária"
     ],
     icone: `<i class="fa-solid fa-leaf soja"></i>`,
-    pagina: "/pages/alergias.html"
+    pagina: "pages/alergias.html"
   },
   {
     id: "trigo",
@@ -88,7 +88,7 @@ const alergiasData = [
       "Dificuldade respiratória"
     ],
     icone: `<i class="fa-solid fa-wheat-awn gluten"></i>`,
-    pagina: "/pages/alergias.html"
+    pagina: "pages/alergias.html"
   }
 ];
 
