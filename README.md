@@ -29,6 +29,11 @@ Site focado para falar sobre alergias, e doenças gastrointestinais e como você
 │   │   ├── 📄 dieta.js
 │   │   ├── 📄 doencas.js
 │   │   └── 📄 intolerancia.js
+│   ├── 📁 render
+│   │   ├── 📄 alergiaRender.js
+│   │   ├── 📄 dietaRender.js
+│   │   ├── 📄 doencasRender.js
+│   │   └── 📄 intoleranciaRender.js
 │   ├── 📄 search.js
 │   └── 📄 toast.js
 ├── 📁 pages

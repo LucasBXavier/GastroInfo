@@ -6,7 +6,8 @@ const intoleranciasData = [
             "Dificuldade na digestão do açúcar do leite devido à baixa produção da enzima lactase. Pode causar gases, inchaço e desconforto abdominal após o consumo de laticínios.",
         sintomas: ["Gases", "Inchaço", "Dor abdominal", "Diarreia", "Náusea"],
         icone: `
-<i class="fa-solid fa-cow "></i>`
+<i class="fa-solid fa-cow "></i>`,
+        pagina: "/pages/intolerancias.html"
     },
     {
         id: "frutose",
@@ -16,7 +17,8 @@ const intoleranciasData = [
         sintomas: ["Gases", "Inchaço", "Diarreia", "Dor abdominal"],
         icone: `
             <i class="fa-solid fa-apple-whole frutose" ></i>
-    `
+    `,
+        pagina: "/pages/intolerancias.html"
     },
     {
         id: "sorbitol",
@@ -26,7 +28,8 @@ const intoleranciasData = [
         sintomas: ["Gases", "Inchaço", "Diarreia"],
         icone: `
     <i class="fa-solid fa-candy-cane sorbitol" ></i>
-    `
+    `,
+        pagina: "/pages/intolerancias.html"
     },
     {
         id: "gluten",
@@ -36,7 +39,8 @@ const intoleranciasData = [
         sintomas: ["Dor abdominal", "Inchaço", "Diarreia", "Mal-estar"],
         icone: `
     <i class="fa-solid fa-wheat-awn gluten"></i>
-    `
+    `,
+        pagina: "/pages/intolerancias.html"
     },
     {
         id: "fodmaps",
@@ -46,7 +50,8 @@ const intoleranciasData = [
         sintomas: ["Gases", "Inchaço", "Dor abdominal", "Diarreia"],
         icone: `
     <i class="fa-solid fa-cloud-meatball fodmaps" ></i>
-    `
+    `,
+        pagina: "/pages/intolerancias.html"
     },
     {
         id: "aditivos",
@@ -56,22 +61,10 @@ const intoleranciasData = [
         sintomas: ["Desconforto abdominal", "Náusea", "Diarreia"],
         icone: `
     <i class="fa-solid fa-flask aditivos"></i>
-    `
+    `,
+        pagina: "/pages/intolerancias.html"
+
     }
 ];
 
-const container = document.getElementById("cards");
-
-intoleranciasData.forEach(item => {
-    const card = document.createElement("div");
-    card.className = "card";
-
-    card.innerHTML = `
-    <div class="card-icon">${item.icone}</div>
-    <h3>${item.titulo}</h3>
-    <p>${item.descricao}</p>
-    <p><strong>Sintomas comuns:</strong> ${item.sintomas.join(", ")}</p>
-`;
-
-    container.appendChild(card);
-});
+export default intoleranciasData;
