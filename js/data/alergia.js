@@ -12,7 +12,8 @@ const alergiasData = [
       "Vômitos",
       "Dificuldade para respirar"
     ],
-    icone: `<i class="fa-solid fa-cow milk"></i>`
+    icone: `<i class="fa-solid fa-cow milk"></i>`,
+    pagina: "/pages/alergias.html"
   },
   {
     id: "ovo",
@@ -26,7 +27,8 @@ const alergiasData = [
       "Vômitos",
       "Diarreia"
     ],
-    icone: `<i class="fa-solid fa-egg egg"></i>`
+    icone: `<i class="fa-solid fa-egg egg"></i>`,
+    pagina: "/pages/alergias.html"
   },
   {
     id: "amendoim",
@@ -40,7 +42,8 @@ const alergiasData = [
       "Falta de ar",
       "Anafilaxia"
     ],
-    icone: `<i class="fa-solid fa-seedling amendoim"></i>`
+    icone: `<i class="fa-solid fa-seedling amendoim"></i>`,
+    pagina: "/pages/alergias.html"
   },
   {
     id: "frutos-mar",
@@ -54,7 +57,8 @@ const alergiasData = [
       "Náusea",
       "Dificuldade respiratória"
     ],
-    icone: `<i class="fa-solid fa-fish frutos-mar"></i>`
+    icone: `<i class="fa-solid fa-fish frutos-mar"></i>`,
+    pagina: "/pages/alergias.html"
   },
   {
     id: "soja",
@@ -68,7 +72,8 @@ const alergiasData = [
       "Diarreia",
       "Urticária"
     ],
-    icone: `<i class="fa-solid fa-leaf soja"></i>`
+    icone: `<i class="fa-solid fa-leaf soja"></i>`,
+    pagina: "/pages/alergias.html"
   },
   {
     id: "trigo",
@@ -82,22 +87,9 @@ const alergiasData = [
       "Diarreia",
       "Dificuldade respiratória"
     ],
-    icone: `<i class="fa-solid fa-wheat-awn gluten"></i>`
+    icone: `<i class="fa-solid fa-wheat-awn gluten"></i>`,
+    pagina: "/pages/alergias.html"
   }
 ];
 
-const container = document.getElementById("cards");
-
-alergiasData.forEach(item => {
-    const card = document.createElement("div");
-    card.className = "card";
-
-    card.innerHTML = `
-    <div class="card-icon">${item.icone}</div>
-    <h3>${item.titulo}</h3>
-    <p>${item.descricao}</p>
-    <p><strong>Sintomas comuns:</strong> ${item.sintomas.join(", ")}</p>
-`;
-
-    container.appendChild(card);
-});
+export default alergiasData;

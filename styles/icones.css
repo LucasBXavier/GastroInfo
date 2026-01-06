@@ -61,3 +61,38 @@
     background-color: #f9f5ff;
     color: #7c3aed;
 }
+
+.gastrite{
+    background-color: #ede9fe;
+    color: #6b21a8;
+}
+
+.refluxo{
+    background-color: #fff1f2;
+    color: #be123c;
+}
+
+.sii{
+    background-color: #ecfdf5;
+    color: #065f46;
+}
+
+.doenca-celiaca{
+    background-color: #fffbeb;
+    color: #92400e;
+}
+
+.constipacao{
+    background-color: #eff6ff;
+    color: #1e40af;
+}
+
+.diarreia{
+    background-color: #fef3c7;
+    color: #b45309;
+}
+
+.dietas{
+    background-color: #f0fdf4;
+    color: #15803d;
+}   
