@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lucasbxavier.github.io/GastroInfo/sitemap.xml

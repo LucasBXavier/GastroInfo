@@ -1,0 +1,63 @@
+.paper {
+    background-color: #dbeafe;
+    color: #2563eb;
+}
+
+.warning {
+    background-color: #fee2e2;
+    color: #dc2626;
+}
+
+.heart {
+    background-color: #f3e8ff;
+    color: #9333ea;
+}
+
+.diet {
+    background-color: #dcfce7;
+    color: #16a34a;
+}
+
+.frutose {
+    background-color: #ffe4e6;
+    color: #f80000;
+}
+
+.sorbitol {
+    background-color: #f0fdf4;
+    color: #059669;
+}
+
+.gluten {
+    background-color: #fffbeb;
+    color: #b45309;
+}
+
+.fodmaps {
+    background-color: #eff6ff;
+    color: #2563eb;
+}
+
+.aditivos {
+    background-color: #fef3c7;
+    color: #d97706;
+}
+
+.egg{
+    background-color: #fefce8;
+    color: #ca8a04;
+}
+.amendoim{
+    background-color: #f3f4f6;
+    color: #374151;
+}
+
+.frutos-mar{
+    background-color: #e0f2fe;
+    color: #0284c7;
+}
+
+.soja{
+    background-color: #f9f5ff;
+    color: #7c3aed;
+}

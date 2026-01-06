@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import "icones.css";
 
 :root {
     /* Base */
@@ -28,7 +29,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -183,32 +184,25 @@ body {
 .card-icon {
     width: 3.5rem;
     height: 3.5rem;
-    border-radius: 0.75rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 1.25rem;
+    
+
+    i {
+        width: 42px;
+        height: 42px;
+        font-size: 30px;
+        margin: auto;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.75rem;
+        padding: 1.5rem;
+    }
 }
 
-.paper {
-    background-color: #dbeafe;
-    color: #2563eb;
-}
-
-.warning {
-    background-color: #fee2e2;
-    color: #dc2626;
-}
-
-.heart {
-    background-color: #f3e8ff;
-    color: #9333ea;
-}
-
-.diet {
-    background-color: #dcfce7;
-    color: #16a34a;
-}
 
 .card {
     border: 1.5px solid var(--border-light);
@@ -301,7 +295,7 @@ body {
     }
 }
 
-.footer-title{
+.footer-title {
     font-weight: bold;
 }
 

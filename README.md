@@ -14,18 +14,37 @@ Site focado para falar sobre alergias, e doenças gastrointestinais e como você
 ---
 
 ```
+├── 📁 assets
+│   └── 📁 favicon
+│       ├── 🖼️ apple-touch-icon.png
+│       ├── 🖼️ favicon-96x96.png
+│       ├── 📄 favicon.ico
+│       ├── 🖼️ favicon.svg
+│       ├── 📄 site.webmanifest
+│       ├── 🖼️ web-app-manifest-192x192.png
+│       └── 🖼️ web-app-manifest-512x512.png
 ├── 📁 js
-│   ├── 📄 data.js
-│   └── 📄 search.js
+│   ├── 📁 data
+│   │   ├── 📄 alergia.js
+│   │   ├── 📄 dieta.js
+│   │   ├── 📄 doencas.js
+│   │   └── 📄 intolerancia.js
+│   ├── 📄 search.js
+│   └── 📄 toast.js
 ├── 📁 pages
+│   ├── 📁 template
+│   │   └── 🌐 base.html
 │   ├── 🌐 alergias.html
 │   ├── 🌐 dietas.html
 │   ├── 🌐 doencas.html
 │   └── 🌐 intolerancias.html
 ├── 📁 styles
+│   ├── 🎨 icones.css
 │   ├── 🎨 responsividade.css
 │   └── 🎨 style.css
 ├── 📄 LICENSE
 ├── 📝 README.md
-└── 🌐 index.html
+├── 🌐 index.html
+├── 📄 robots.txt
+└── ⚙️ sitemap.xml
 ```

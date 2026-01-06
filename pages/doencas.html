@@ -3,6 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description"
+        content="GastroInfo é um site educativo sobre doenças gastrointestinais, alergias e intolerâncias alimentares. Informações claras sobre sintomas, causas e orientações gerais, sem substituir avaliação médica.">
+
+    <meta name="keywords"
+        content="doenças gastrointestinais, alergias alimentares, intolerância à lactose, doença celíaca, refluxo, gastrite, saúde digestiva">
+
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="GastroInfo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -15,7 +23,8 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <h3 class="logo"><i class="fa-solid fa-heart-pulse"></i> GastroInfo</h3>
+            <h3 class="logo"><a href="index.html" style="text-decoration: none;"><i class="fa-solid fa-heart-pulse"></i>
+                    GastroInfo</a></h3>
         </div>
         <div class="search-box">
             <form class="d-flex" role="search">
@@ -30,7 +39,9 @@
         <div class="links dropdown">
             <li class="link-item">
                 <a href="../index.html"><i class="fa-solid fa-house"></i> Home</a>
-                <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown"><i class="fa-solid fa-list"></i> Categorias</a>
+                <!-- <a href=""><i class="fa-regular fas fas fa-clipboard-list"></i> Fontes</a> -->
+                <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown"><i class="fa-solid fa-list"></i>
+                    Categorias</a>
                 <ul class="dropdown-menu dropdown-menu-end">
                     <li><a href="intolerancias.html" class="dropdown-item">Intolerâncias</a></li>
                     <li><a href="alergias.html" class="dropdown-item">Alergias</a></li>
@@ -41,12 +52,34 @@
         </div>
     </nav>
 
-    <footer class="fixed-bottom">
+    <!-- disclaimer -->
+    <section class="content-section background-warning disclaimer">
+        <div class="narrow-container">
+            <div class="info-notice">
+                <div class="notice-icon-wrapper">
+                    <svg fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="notice-heading">Informação educativa</h3>
+                    <p id="disclaimer-text" class="notice-text">Este site tem caráter educativo e não substitui
+                        avaliação médica. Sempre consulte um profissional de saúde qualificado para diagnóstico,
+                        tratamento e orientações personalizadas sobre sua condição.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- disclaimer -->
+
+    <footer>
         <div class="footer-links">
             <div class="footer-columns">
                 <div class="collums">
                     <div class="footer-brand">
-                        <span class="footer-brand-name">GastroInfo</span>
+                        <span class="footer-brand-name"><a href="index.html" style="text-decoration: none;"><i
+                                    class="fa-solid fa-heart-pulse"></i> GastroInfo</a></span>
                     </div>
                     <p class="footer-summary">Informação confiável sobre saúde digestiva</p>
                 </div>
@@ -63,7 +96,7 @@
         </div>
         <hr>
         <div class="text-center p-3 footer">
-            <p class="copy" href="#">©2025 GastroInfo. Este site é apenas informativo e não substitui
+            <p class="copy" href="#">©2026 GastroInfo. Este site é apenas informativo e não substitui
                 orientação
                 médica.</p>
             <p class="copy">Desenvolvido por <a href="https://lucasboareto.vercel.app/">Lucas</a>❤️</p>

@@ -3,9 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description"
+        content="GastroInfo é um site educativo sobre doenças gastrointestinais, alergias e intolerâncias alimentares. Informações claras sobre sintomas, causas e orientações gerais, sem substituir avaliação médica.">
+
+    <meta name="keywords"
+        content="doenças gastrointestinais, alergias alimentares, intolerância à lactose, doença celíaca, refluxo, gastrite, saúde digestiva">
+
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="GastroInfo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/responsividade.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -16,7 +30,8 @@
     <!-- nav -->
     <nav class="navbar">
         <div class="logo">
-            <h3 class="logo"><a href="index.html" style="text-decoration: none;"><i class="fa-solid fa-heart-pulse"></i> GastroInfo</a></h3>
+            <h3 class="logo"><a href="index.html" style="text-decoration: none;"><i class="fa-solid fa-heart-pulse"></i>
+                    GastroInfo</a></h3>
         </div>
         <div class="search-box">
             <form class="d-flex" role="search">
@@ -31,6 +46,7 @@
         <div class="links dropdown">
             <li class="link-item">
                 <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                <!-- <a href=""><i class="fa-regular fas fas fa-clipboard-list"></i> Fontes</a> -->
                 <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown"><i class="fa-solid fa-list"></i>
                     Categorias</a>
                 <ul class="dropdown-menu dropdown-menu-end">
@@ -44,8 +60,9 @@
     </nav>
     <!-- nav -->
     <!-- toast -->
-     <div class="toast-container position-fixed bottom-0 end-0 p-3">
-        <div id="meuToast" class="toast align-items-center text-bg-warning" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="meuToast" class="toast align-items-center text-bg-warning" role="alert" aria-live="assertive"
+            aria-atomic="true">
             <div class="d-flex">
                 <div class="toast-body">
                     Este site tem caráter educativo e não substitui
@@ -62,8 +79,8 @@
         <div class="hero">
             <div class="hero-content">
                 <h1 class="hero-title">Entenda seu corpo<br>
-                     alergias, intolerâncias e saúde digestiva</h1>
-                     <hr>
+                    alergias, intolerâncias e saúde digestiva</h1>
+                <hr>
                 <p class="subtext">Informações confiáveis e acessíveis para ajudar você a compreender melhor sua saúde
                     intestinal e bem-estar geral.
                 </p>
@@ -83,56 +100,40 @@
                 </p>
                 <div class="cards">
                     <div class="card">
-                        <div class="card-icon paper">
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
-                                </path>
-                            </svg>
+                        <div class="card-icon">
+                            <i class="fa-solid fa-file-circle-question paper"></i>
                         </div>
                         <h3>Intolerâncias alimentares</h3>
                         <p>Diferença entre intolerância e alergia, sintomas comuns e alimentos envolvidos. Entenda o que
                             seu corpo está tentando comunicar.</p>
-                        <a href="">Ver mais ></a>
+                        <a href="./pages/intolerancias.html">Ver mais <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <div class="card">
-                        <div class="card-icon warning">
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z">
-                                </path>
-                            </svg>
+                        <div class="card-icon">
+                            <i class="fa-solid fa-triangle-exclamation warning"></i>
                         </div>
                         <h3>Alergias alimentares</h3>
                         <p>Reações adversas do sistema imunológico a certos alimentos. Saiba identificar sintomas e
                             gerenciar alergias alimentares com segurança.</p>
-                        <a href="">Ver mais ></a>
+                        <a href="./pages/alergias.html">Ver mais <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <div class="card">
-                        <div class="card-icon heart">
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
-                                </path>
-                            </svg>
+                        <div class="card-icon">
+                            <i class="fa-regular fa-heart heart"></i>
                         </div>
                         <h3>Doenças gastrointestinais</h3>
                         <p>Crohn, síndrome do intestino irritável, diagnóstico e tratamento. Conheça as condições e como
                             lidar com elas.</p>
-                        <a href="">Ver mais ></a>
+                        <a href="./pages/doencas.html">Ver mais <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     <div class="card">
-                        <div class="card-icon diet">
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4">
-                                </path>
-                            </svg>
+                        <div class="card-icon">
+                            <i class="fa-solid fa-clipboard-check diet"></i>
                         </div>
                         <h3>Dietas e protocolos</h3>
                         <p>FODMAPs, dieta de eliminação e outras estratégias alimentares baseadas em evidências para
                             melhor qualidade de vida.</p>
-                        <a href="">Ver mais ></a>
+                        <a href="./pages/dietas.html">Ver mais <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -165,7 +166,8 @@
             <div class="footer-columns">
                 <div class="collums">
                     <div class="footer-brand">
-                        <span class="footer-brand-name"><a href="index.html" style="text-decoration: none;"><i class="fa-solid fa-heart-pulse"></i> GastroInfo</a></span>
+                        <span class="footer-brand-name"><a href="index.html" style="text-decoration: none;"><i
+                                    class="fa-solid fa-heart-pulse"></i> GastroInfo</a></span>
                     </div>
                     <p class="footer-summary">Informação confiável sobre saúde digestiva</p>
                 </div>
@@ -182,7 +184,7 @@
         </div>
         <hr>
         <div class="text-center p-3 footer">
-            <p class="copy" href="#">©2025 GastroInfo. Este site é apenas informativo e não substitui
+            <p class="copy" href="#">©2026 GastroInfo. Este site é apenas informativo e não substitui
                 orientação
                 médica.</p>
             <p class="copy">Desenvolvido por <a href="https://lucasboareto.vercel.app/">Lucas</a>❤️</p>
@@ -192,7 +194,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5ba8568aec.js" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/toast.js"></script>
 </body>
 
 </html>

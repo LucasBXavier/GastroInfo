@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://lucasbxavier.github.io/GastroInfo/</loc>
+        <priority>1.0</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://lucasbxavier.github.io/GastroInfo/pages/doencas.html</loc>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://lucasbxavier.github.io/GastroInfo/pages/alergias.html</loc>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://lucasbxavier.github.io/GastroInfo/pages/intolerancias.html</loc>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://lucasbxavier.github.io/GastroInfo/pages/dietas.html</loc>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+</urlset>
