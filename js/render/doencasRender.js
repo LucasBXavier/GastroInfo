@@ -4,8 +4,19 @@ const container = document.getElementById("cards2");
 
 doencasDigestivasData.forEach(item => {
     const card = document.createElement("div");
-    card.className = "card"; 
+    card.className = "card";
     card.id = item.id;
+
+    const hash = window.location.hash.replace("#", "");
+
+    if (hash && item.id === hash) {
+        card.classList.add("highlight");
+
+        // opcional: rolagem suave até o card
+        setTimeout(() => {
+            card.scrollIntoView({ behavior: "smooth", block: "center" });
+        }, 150);
+    }
 
     card.innerHTML = `
     <div class="card-icon" id="${item.id}">${item.icone}</div>

@@ -1,17 +1,8 @@
-// search.js (use type="module" e defer no HTML)
 (async function initSearch() {
-  // referencia ao DOM (checa existência antes de carregar qualquer dado)
   const input = document.getElementById("search-input");
   const resultsBox = document.getElementById("search-results");
 
-  // se não tiver a search bar nesta página, não carregamos nada
-  if (!input || !resultsBox) {
-    // console.log opcional para debug
-    // console.warn("Search bar não encontrada; search.js não será inicializado.");
-    return;
-  }
-
-  // --------- import dinâmico dos dados (só rola se a barra existir) ----------
+  // --------- import dinâmico dos dados ----------
   const [
     intoleranciasMod,
     alergiasMod,
@@ -64,11 +55,23 @@
     ).slice(0, 8);
   }
 
+  function renderEmptyState(query) {
+    resultsBox.innerHTML = `
+    <div class="search-empty">
+      <strong>Nenhum resultado encontrado 😕</strong>
+      <span>
+        Não encontramos nada relacionado a
+        <em>"${query}"</em>
+      </span>
+    </div>
+  `;
+    resultsBox.classList.remove("hidden");
+  }
+
   /* render autocomplete */
   function renderResults(items, query) {
     if (!items.length) {
-      resultsBox.classList.add("hidden");
-      resultsBox.innerHTML = "";
+      renderEmptyState(query);
       return;
     }
 

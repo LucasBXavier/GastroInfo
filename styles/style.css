@@ -130,6 +130,32 @@ mark {
     border-radius: 3px;
 }
 
+.search-empty {
+  padding: 12px 14px;
+  text-align: center;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.search-empty strong {
+  display: block;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.search-empty em {
+  color: #2563eb;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.highlight {
+  outline: 2px solid #2563eb;
+  background-color: rgba(37, 99, 235, 0.08);
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
 .links {
     display: flex;
 }
